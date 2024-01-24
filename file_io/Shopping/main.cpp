@@ -25,6 +25,7 @@ int main()
 
         inFile >> tmpItem; // read in the string
         auto it = find(shoppingList.begin(), shoppingList.end(), tmpItem); // see if it's in the existing list
+        // the auto keyword forces c++ to deduce the type from the statement
         if (it != shoppingList.end()) // if it's already in the list
         {   // increment that item's frequency in the parallel vector
             frequencies[distance(shoppingList.begin(), it)]++; // increment that item's frequency

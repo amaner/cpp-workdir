@@ -1,0 +1,9 @@
+coke 12
+ham 9
+salad 5
+honey 3
+turkey 6
+pepsi 4
+banana 3
+cucumber 4
+pasta 6
